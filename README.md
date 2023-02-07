@@ -18,11 +18,11 @@ This is my repository for keeping my ☕ Java Projects
 
 <pre class="notranslate">
   <code>
-📱 · Basic calculator (included with arithmetic operators)
-💱 · Currency converter (only dollar to idr)
-🎲 · Guessing a random number 
-📦 · Inventory management (add & update inventory, add & update inventory price, and view inventory)
-📏 · Length converter (features; inch, feet, centimeter, and meter)
+📱 · Basic Calculator (included with arithmetic operators)
+💱 · Currency Converter (only dollar to idr)
+🎲 · Guessing a Random Number 
+📦 · Inventory Management (add & update inventory, add & update inventory price, and view inventory)
+📏 · Length Converter (features; inch, feet, centimeter, and meter)
 🌡️ · Temperature Converter (features; celsius, fahrenheit, kelvin, and reaumur)
 💳 · Simple Banking Application (using function for better readable code. features; deposit, withdraw, check balance)
 🔄️ · Reverse Word
