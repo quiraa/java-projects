@@ -1,20 +1,17 @@
 
 # ☕ java-projects
 
-#
 
 This is my repository for keeping my ☕ Java Projects
 
 ## 🧑‍💻 Authors
 
-#
 
 - [@quiraa](https://www.github.com/quiraa)
 
 
 ## 🗃️ What's inside?
 
-#
 
 <pre class="notranslate">
   <code>
@@ -32,6 +29,5 @@ This is my repository for keeping my ☕ Java Projects
 
 ## 💬 Feedback & Comments
 
-#
 
 If you have any feedback or comments, please dm me on my ig
