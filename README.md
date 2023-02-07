@@ -13,9 +13,9 @@ This is a repo for my java projects
 - Basic calculator (included with arithmetic operators)
 - Currency converter (only dollar to idr)
 - Guessing a random number 
-- Inventory management (add and update inventory, add and update inventory price, and view inventory)
-- Length converter (available only inch, feet, centimeter, and meter)
-
+- Inventory management (add & update inventory, add & update inventory price, and view inventory)
+- Length converter (features; inch, feet, centimeter, and meter)
+- Temperature Converter (features; celsius, fahrenheit, kelvin, and reaumur)
 
 ## Feedback
 
