@@ -16,6 +16,7 @@ This is a repo for my java projects
 - Inventory management (add & update inventory, add & update inventory price, and view inventory)
 - Length converter (features; inch, feet, centimeter, and meter)
 - Temperature Converter (features; celsius, fahrenheit, kelvin, and reaumur)
+- Simple Banking Application (using function for better readable code. features; deposit, withdraw, check balance)
 
 ## Feedback
 
