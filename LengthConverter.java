@@ -1,61 +1,55 @@
 import java.util.Scanner;
 
-class BankAccount {
-    private double balance;
-
-    public BankAccount(double balance) {
-        this.balance = balance;
-    }
-
-    public void deposit(double amount) {
-        balance += amount;
-        System.out.println("Deposit berhasil. Saldo saat ini: " + balance);
-    }
-
-    public void withdraw(double amount) {
-        if (balance >= amount) {
-            balance -= amount;
-            System.out.println("Penarikan berhasil. Saldo saat ini: " + balance);
-        } else {
-            System.out.println("Penarikan gagal. Saldo tidak cukup.");
-        }
-    }
-
-    public void checkBalance() {
-        System.out.println("Saldo saat ini: " + balance);
-    }
-}
-
-public class SimpleBankingApplication {
+public class LengthConverter {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        BankAccount account = new BankAccount(0.0);
+        System.out.println("Length Converter");
+        System.out.println("1. Centimeter");
+        System.out.println("2. Meter");
+        System.out.println("3. Inchi");
+        System.out.println("4. Kaki");
+        System.out.println("Pilih satuan panjang: ");
+        int option = input.nextInt();
+        double centimeter, meter, inch, foot;
+        System.out.println("Masukan satuan panjang: ");
+        double length = input.nextDouble();
 
-        while (true) {
-            System.out.println("\nMenu:");
-            System.out.println("1. Deposit");
-            System.out.println("2. Withdraw");
-            System.out.println("3. Check Balance");
-            System.out.println("4. Exit");
-            System.out.print("Pilih nomor menu: ");
-
-            int menu = input.nextInt();
-            if (menu == 1) {
-                System.out.print("Masukkan jumlah deposit: ");
-                double amount = input.nextDouble();
-                account.deposit(amount);
-            } else if (menu == 2) {
-                System.out.print("Masukkan jumlah penarikan: ");
-                double amount = input.nextDouble();
-                account.withdraw(amount);
-            } else if (menu == 3) {
-                account.checkBalance();
-            } else if (menu == 4) {
+        switch (option){
+            case 1:
+                inch = length / 2.54;
+                meter = length / 100;
+                foot = length / 30.48;
+                System.out.println(length + " centimeter = " + inch + " inchi");
+                System.out.println(length + " centimeter = " + meter + " meter");
+                System.out.println(length + " centimeter = " + foot + " foot");
                 break;
-            } else {
-                System.out.println("Masukkan pilihan yang benar.");
-            }
+            case 2:
+                centimeter = length * 100;
+                inch = length * 39.37;
+                foot = length * 3.281;
+                System.out.println(length + " meter = " + centimeter + " centimeter");
+                System.out.println(length + " meter = " + inch + " inch");
+                System.out.println(length + " meter = " + foot + " foot");
+                break;
+            case 3:
+                centimeter = length * 2.54;
+                meter = length * 39.37;
+                foot = length / 12;
+                System.out.println(length + " inchi = " + centimeter + " centimeer");
+                System.out.println(length + " inchi = " + meter + " meter");
+                System.out.println(length + " inchi = " + foot + " foot");
+                break;
+            case 4:
+                centimeter = length * 30.48;
+                meter = length / 3.281;
+                inch = length * 12;
+                System.out.println(length + " foot = " + centimeter + " centimeer");
+                System.out.println(length + " foot = " + meter + " meter");
+                System.out.println(length + " foot = " + inch + " inchi");
+                break;
+            default:
+                System.out.println("Pilihan Invalid!");
+                break;
         }
     }
 }
-
