@@ -1,23 +1,25 @@
 
-# java-projects
+# ☕ java-projects
 
-This is a repo for my java projects
+This is my repository for keeping my ☕ Java Projects
 
-## Authors
+## 🧑‍💻 Authors
 
 - [@quiraa](https://www.github.com/quiraa)
 
 
-## What's inside?
+## 🗃️ What's inside?
 
-- Basic calculator (included with arithmetic operators)
-- Currency converter (only dollar to idr)
-- Guessing a random number 
-- Inventory management (add & update inventory, add & update inventory price, and view inventory)
-- Length converter (features; inch, feet, centimeter, and meter)
-- Temperature Converter (features; celsius, fahrenheit, kelvin, and reaumur)
-- Simple Banking Application (using function for better readable code. features; deposit, withdraw, check balance)
+📱 · Basic calculator (included with arithmetic operators)
+💱 · Currency converter (only dollar to idr)
+🎲 · Guessing a random number 
+📦 · Inventory management (add & update inventory, add & update inventory price, and view inventory)
+📏 · Length converter (features; inch, feet, centimeter, and meter)
+🌡️ · Temperature Converter (features; celsius, fahrenheit, kelvin, and reaumur)
+💳 · Simple Banking Application (using function for better readable code. features; deposit, withdraw, check balance)
+🔄️ · Reverse Word
+🧮 · Word Counter
 
-## Feedback
+## 💬 Feedback & Comments
 
-If you have any feedback, please dm me on my ig
+If you have any feedback or comments, please dm me on my ig
