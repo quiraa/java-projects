@@ -15,13 +15,13 @@ This is my repository for keeping my ☕ Java Projects
 
 <pre class="notranslate">
   <code>
-📱 · Basic Calculator (included with arithmetic operators)
-💱 · Currency Converter (only dollar to idr)
+📱 · Basic Calculator
+💱 · Currency Converter
 🎲 · Guessing a Random Number 
-📦 · Inventory Management (add & update inventory, add & update inventory price, and view inventory)
-📏 · Length Converter (features; inch, feet, centimeter, and meter)
-🌡️ · Temperature Converter (features; celsius, fahrenheit, kelvin, and reaumur)
-💳 · Simple Banking Application (using function for better readable code. features; deposit, withdraw, check balance)
+📦 · Inventory Management
+📏 · Length Converter
+🌡️ · Temperature Converter
+💳 · Simple Banking Application
 🔄️ · Reverse Word
 🧮 · Word Counter
 </code>
